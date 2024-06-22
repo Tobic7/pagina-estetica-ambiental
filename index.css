@@ -26,8 +26,10 @@ header{
     background-color: whitesmoke;
 }
 
-header a#us{
-    margin-right: 50px;
+header div.optionsUp{
+    word-spacing: 10px;
+    padding-right: 15px;
+
 }
 
 article{
@@ -70,6 +72,11 @@ a{
 a:hover{
     color: rgb(110, 226, 38);
     font-size: 18.5px;
+}
+
+.bottom .optionsDown{
+    text-align: center;
+    word-spacing: 10px;
 }
 
 .bottom {
