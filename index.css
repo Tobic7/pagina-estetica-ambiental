@@ -1,6 +1,6 @@
+/* //////// REALIZA CAMBIOS EN TODA LA PAGINA, EN TOOODA LA PAGINA ///////// */
 *{
     color: black;
-    text-align: justify;
     margin-left: 0;
     margin-right: 0;
     border-left: 0;
@@ -12,7 +12,7 @@
     padding-bottom: 0;
     
 }
-
+/* //////// LO DE MAS ARRIBA. EL NAVEGADOR, ETC. ///////// */
 header a.logo{
     font-size: 24px;
 }
@@ -32,6 +32,7 @@ header div.optionsUp{
 
 }
 
+/* //////// PARTE IMPORTANTE DE LA PAGINA. LA QUE SE VE APENAS INGRESAS ///////// */
 article{
     background-image: url(img/Parque.jpg);
     background-repeat: no-repeat;
@@ -49,11 +50,21 @@ article h1{
     font-size: 50px;
 }
 
+
+/* //////// 2da parte de la pagina debajo de la imagen ///////// */
 section{
-    background-color: aqua;
+    background-color: rgb(212, 228, 228);
+    min-height: 240px;
+    display: flex;
 }
 
-section p.intro{
+section div.intros{
+    width: 60%;
+    padding-left: 25px;
+}
+
+section div.intros h3{
+    padding-top: 20px;
     text-align: justify;
     text-align: center;
 }
@@ -61,9 +72,16 @@ section p.intro{
 section p.intro2{
     text-align: justify;
     text-align: center;
+    margin-top: 20px;
 }
 
+section div.things{
+    width: 70%;
+    padding-top: 20px;
+    text-align: center;
+}
 
+/* //////// PARTE DE LOS 'A' AL PASAR EL MOUSE POR ENCIMA ///////// */
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,6 +92,7 @@ a:hover{
     font-size: 18.5px;
 }
 
+/* //////// PARTE FINAL DE LA PAGINA. LO DE MAS ABAJO ///////// */
 .bottom .optionsDown{
     text-align: center;
     word-spacing: 10px;
