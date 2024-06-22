@@ -1,0 +1,40 @@
+*{
+    color: black;
+    text-align: justify;
+}
+header{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    background-color: coral; /*Borrar luego. Es para tener una de donde se situaran las cosas */
+    height: 100px;
+}
+body{
+    background-image: url(img/);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    font-size: 18.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bottom {
+    background-color: coral; /*Borrar luego. Es para tener una de donde se situaran las cosas */
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.bottom p{
+    text-align: center;
+}
