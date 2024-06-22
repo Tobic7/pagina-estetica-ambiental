@@ -16,6 +16,14 @@ body{
     background-attachment: fixed;
 }
 
+article{
+    background-image: url(img/Parque.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px ;
+    height: 500px;
+}
+
+
 a{
     text-decoration: none;
 }
