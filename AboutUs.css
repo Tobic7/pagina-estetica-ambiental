@@ -1,0 +1,52 @@
+*{
+    color: black;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+header a.logo{
+    font-size: 24px;
+}
+
+header{
+    display: flex;
+    font-size: 16px;
+    padding-top: 50px;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: whitesmoke;
+}
+
+header div.optionsUp{
+    word-spacing: 10px;
+    padding-right: 15px;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    color: rgb(110, 226, 38);
+    font-size: 18.5px;
+}
+
+.bottom .optionsDown{
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.bottom {
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.bottom p{
+    text-align: center;
+}
