@@ -24,6 +24,10 @@ header div.optionsUp{
 
 }
 
+section{
+    min-height: 500px;
+}
+
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
