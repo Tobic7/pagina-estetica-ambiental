@@ -89,9 +89,16 @@ section div.things{
 /* CAMBIOS EN LA PARTE DE SERVICIOS */
 
 section.servicios{
-    background-color: white;
+    padding: 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgb(240, 240, 240);
     display: flex;
     justify-content: space-between;
+}
+
+section.servicios img{
+    border-radius: 25px;
 }
 
 section.servicios div.mant{
@@ -99,12 +106,14 @@ section.servicios div.mant{
     margin: 5px 5px;
     width: 300px;
     height: 230px;
-    background-color: wheat;
 }
 
 section.servicios div.mant img{
+    padding-top: 5px;
     width: 100%;
     height: 100%;
+    min-width: auto;
+    min-height: auto;
 }
 
 section.servicios div.podas{
@@ -112,10 +121,10 @@ section.servicios div.podas{
     margin: 5px 5px;
     width: 300px;
     height: 230px;
-    background-color: wheat;
 }
 
 section.servicios div.podas img{
+    padding-top: 5px;
     width: 100%;
     height: 100%;
 }
@@ -125,10 +134,10 @@ section.servicios div.riego{
     margin: 5px 5px;
     width: 300px;
     height: 230px;
-    background-color: wheat;
 }
 
 section.servicios div.riego img{
+    padding-top: 5px;
     width: 100%;
     height: 100%;
 }
@@ -138,10 +147,10 @@ section.servicios div.suelos{
     margin: 5px 5px;
     width: 300px;
     height: 230px;
-    background-color: wheat;
 }
 
 section.servicios div.suelos img{
+    padding-top: 5px;
     width: 100%;
     height: 100%;
 }
