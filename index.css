@@ -56,7 +56,7 @@ article h1{
 
 /* //////// 2da parte de la pagina debajo de la imagen ///////// */
 section{
-    background-color: rgb(212, 228, 228);
+    background-color: rgb(235, 235, 235);
     min-height: 240px;
     display: flex;
     align-items: center;
@@ -92,13 +92,14 @@ section.servicios{
     padding: 0px 20px;
     padding-top: 20px;
     padding-bottom: 50px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(19, 80, 4, 0.247);
     display: flex;
     justify-content: space-between;
 }
 
 section.servicios img{
     border-radius: 25px;
+    min-width: 100px;
 }
 
 section.servicios div.mant{
