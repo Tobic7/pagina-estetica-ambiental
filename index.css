@@ -8,23 +8,26 @@
     
 }
 /* //////// LO DE MAS ARRIBA. EL NAVEGADOR, ETC. ///////// */
-header a.logo{
-    font-size: 24px;
+header a.logo img{
+    height: 140px;
+    width: 200px;
     margin-left: 20px;
+    padding-bottom:10px ;
 }
 
 header{
     display: flex;
     font-size: 16px;
-    padding-top: 50px;
+    padding-top: 15px;
     justify-content: space-between;
     min-height: 70px;
-    background-color: whitesmoke;
 }
 
 header div.optionsUp{
+    padding-top: 70px;
     word-spacing: 10px;
-    padding-right: 15px;
+    padding-right: 20px;
+    padding-left:  20px;
 
 }
 
@@ -69,13 +72,11 @@ section div.intros{
 
 section div.intros h3{
     padding-top: 20px;
-    text-align: justify;
     text-align: center;
 }
 
 section p.intro2{
     text-align: justify;
-    text-align: center;
     margin-top: 20px;
 }
 
@@ -84,6 +85,47 @@ section div.things{
     padding-top: 20px;
     text-align: center;
 }
+
+/* CAMBIOS EN LA PARTE DE SERVICIOS */
+
+section.servicios{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.servicios div.mant{
+    text-align: center;
+    margin: 5px 5px;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: wheat;
+}
+
+section.servicios div.podas{
+    text-align: center;
+    margin: 5px 5px;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: wheat;
+}
+
+section.servicios div.riego{
+    text-align: center;
+    margin: 5px 5px;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: wheat;
+}
+
+section.servicios div.suelos{
+    text-align: center;
+    margin: 5px 5px;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: wheat;
+}
+
 
 /* //////// PARTE DE LOS 'A' AL PASAR EL MOUSE POR ENCIMA ///////// */
 a{
@@ -99,7 +141,7 @@ a:hover{
 /* //////// PARTE FINAL DE LA PAGINA. LO DE MAS ABAJO ///////// */
 .bottom .optionsDown{
     text-align: center;
-    word-spacing: 10px;
+    word-spacing: px;
 }
 
 .bottom {
