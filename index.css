@@ -4,11 +4,13 @@
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: sans-serif;
     
 }
 /* //////// LO DE MAS ARRIBA. EL NAVEGADOR, ETC. ///////// */
 header a.logo{
     font-size: 24px;
+    margin-left: 20px;
 }
 
 header{
@@ -28,19 +30,23 @@ header div.optionsUp{
 
 /* //////// PARTE IMPORTANTE DE LA PAGINA. LA QUE SE VE APENAS INGRESAS ///////// */
 article{
-    background-image: url(img/Parque.jpg);
+    background-image: linear-gradient(
+        rgba(26, 26, 26, 0.2),
+        rgba(26, 26, 26, 0.2)
+    ),url(img/Parque.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-attachment: fixed;
     max-width: auto;
     max-height: auto;
-    background-size: 1520px ;
-    height: 550px;
+    background-size:cover;
+    background-position: center;
+    height: 700px;
 }
 article h1{
     color: white;
     text-align: justify;
     font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; 
-    padding-top: 230px;
+    padding-top: 300px;
     text-align: center;
     font-size: 50px;
 }
@@ -102,7 +108,6 @@ a:hover{
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    background-color: aliceblue;
 }
 .bottom p{
     text-align: center;
