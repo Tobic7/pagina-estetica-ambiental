@@ -80,12 +80,6 @@ section p.intro2{
     margin-top: 20px;
 }
 
-section div.things{
-    width: 70%;
-    padding-top: 20px;
-    text-align: center;
-}
-
 /* CAMBIOS EN LA PARTE DE SERVICIOS */
 div.tituloServicio{
     padding-top: 20px;
@@ -170,13 +164,13 @@ a{
 
 a:hover{
     color: rgb(110, 226, 38);
-    font-size: 18.5px;
+    font-size: 19px;
 }
 
 /* //////// PARTE FINAL DE LA PAGINA. LO DE MAS ABAJO ///////// */
 .bottom .optionsDown{
     text-align: center;
-    word-spacing: px;
+    word-spacing: 30px;
 }
 
 .bottom {
