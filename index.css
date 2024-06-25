@@ -64,14 +64,13 @@ section{
 }
 
 section div.intros{
-    width: 60%;
     padding-left: 25px;
     align-items: center;
     justify-content: center;
 }
 
 section div.intros h3{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
