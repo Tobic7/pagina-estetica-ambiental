@@ -172,6 +172,10 @@ a:hover{
     word-spacing: 30px;
 }
 
+.bottom .optionsDown a.rrhh{
+    word-spacing: 0px;
+}
+
 .bottom {
     height: 100px;
     padding-top: 50px;
