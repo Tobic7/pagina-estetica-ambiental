@@ -230,3 +230,44 @@ section.servicios img{
     animation-range: entry 25% cover 40%;
     animation-fill-mode: both;
 }
+
+.title-slider h2{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.slider{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(250px * 30);
+}
+
+.slider .slide{
+    display: flex;
+    width: 250px;
+}
+
+.slider .slide img{
+    padding: 0 40px;
+    width: 150px;
+
+}
+
+@keyframes scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform:translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-200px * 20));
+        transform: translateX(calc(-200px * 20));
+    }
+}
