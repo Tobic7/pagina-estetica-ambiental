@@ -230,6 +230,7 @@ section.servicios img{
     animation-range: entry 25% cover 40%;
     animation-fill-mode: both;
 }
+<<<<<<< HEAD
 
 .title-slider h2{
     text-align: center;
@@ -271,3 +272,5 @@ section.servicios img{
         transform: translateX(calc(-200px * 20));
     }
 }
+=======
+>>>>>>> 361f1793d79aafd15d01136ec7094bf38aaf1057
