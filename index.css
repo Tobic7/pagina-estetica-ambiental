@@ -57,26 +57,36 @@ article h1{
 /* //////// 2da parte de la pagina debajo de la imagen ///////// */
 section{
     background-color: rgb(235, 235, 235);
-    min-height: 240px;
-    display: flex;
+    min-height: 200px;
+    display: block;
     align-items: center;
     justify-content: center;
 }
 
 section div.intros{
-    padding-left: 25px;
+    padding: 10px 30px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 section div.intros h3{
     padding-top: 10px;
-    text-align: center;
 }
 
 section p.intro2{
-    text-align: justify;
     margin-top: 20px;
+}
+
+section.first div.intros{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    
+    animation-timeline: --image;
+    animation-name: show;
+    
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
 }
 
 /* CAMBIOS EN LA PARTE DE SERVICIOS */
