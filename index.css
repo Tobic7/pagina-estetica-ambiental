@@ -84,10 +84,6 @@ section p.intro2{
     margin-top: 10px;
 }
 
-section.first ul{
-    list-style-type: none;
-    margin-top: 10px;
-}
 
 section.first div.intros{
     view-timeline-name: --image;
