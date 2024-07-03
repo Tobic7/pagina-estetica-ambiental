@@ -264,8 +264,8 @@ section.servicios img{
 
 .slider .slide img{
     padding: 0 40px;
-    width: 150px;
-
+    width: 200px;
+    height: 100px;
 }
 
 @keyframes scroll{
